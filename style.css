@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.box
+{
+	margin:0;
+	padding:0;
+	font-family: sans-serif;
+	background: url(https://cdn.dribbble.com/users/2168142/screenshots/6286415/dibsc-pmove-yogirl.gif);
+	background-size: cover;
+}
+
+
+main {
+display: flex;
+width: 100vw;
+height: 100vh;
+position: center;
+justify-content: center;
+align-items: center;}
+
+.container{
+display: flex;
+flex-direction: column;
+background: rgb(135, 94, 255);
+width: 450px;
+height: 620px;
+align-items: center;
+justify-content: space-evenly;
+border-radius: 30px;
+box-shadow: #929194;
+ opacity:99%;
+ /* Linear gradient => all browsers */   
+background: -webkit-linear-gradient(#621c80, #8c27b8, #d36eff); 
+
+    
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+  font-family: 'Bebas Neue', cursive;
+  font-size:40px;
+  margin-bottom: 20px;
+color:white;
+}
+
+.input {
+    display: flex;
+    width: 300px;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+   font-family: 'Bebas Neue', cursive;
+}
+
+.input input {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    outline: 0;
+   font-family: 'Bebas Neue', cursive;
+    text-align: center;
+
+}
+
+.input label {
+font-family: font-family: 'Bebas Neue', cursive;}
+
+button{
+    width: 230px;
+    height: 35px;
+    border-radius:20px;
+    font-family: font-family: 'Bebas Neue', cursive;
+background: -webkit-linear-gradient(#961d49,#ba1451, #ff3680); 
+    color:white;
+}
+
+.result{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+    border-radius: 5px;
+    font: bold1.5rem serif;
+    box-shadow: 0px 0px 10px #000000;
+    background: #000000;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    user-select: none;
+}
